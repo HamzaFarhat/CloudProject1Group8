@@ -1,0 +1,27 @@
+{
+  "connect.name": "kvh",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "default": null,
+      "name": "time",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "heading",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ],
+  "name": "kvh",
+  "type": "record"
+}

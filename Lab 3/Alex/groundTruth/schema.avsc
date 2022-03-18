@@ -1,0 +1,67 @@
+{
+  "connect.name": "gt",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "default": null,
+      "name": "time",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "one",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+          "default": null,
+          "name": "two",
+          "type": [
+            "null",
+            "string"
+          ]
+    },
+    {
+          "default": null,
+          "name": "three",
+          "type": [
+            "null",
+            "string"
+          ]
+    },
+    {
+          "default": null,
+          "name": "four",
+          "type": [
+            "null",
+            "string"
+          ]
+    },
+    {
+          "default": null,
+          "name": "five",
+          "type": [
+            "null",
+            "string"
+          ]
+    },
+    {
+          "default": null,
+          "name": "six",
+          "type": [
+            "null",
+            "string"
+          ]
+    }
+  ],
+  "name": "gt",
+  "type": "record"
+}
