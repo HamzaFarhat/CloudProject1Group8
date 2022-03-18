@@ -1,0 +1,91 @@
+{
+  "connect.name": "test",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "default": null,
+      "name": "sensor1",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "sensor2",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth1",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth2",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth3",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth4",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth5",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth6",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ground_truth7",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "modified",
+      "type": {
+        "connect.name": "org.apache.kafka.connect.data.Timestamp",
+        "connect.version": 1,
+        "type": "long"
+      }
+    }
+  ],
+  "name": "test",
+  "type": "record"
+}
