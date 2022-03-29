@@ -1,0 +1,57 @@
+{
+  "connect.name": "to_process",
+  "fields": [
+    {
+      "name": "old",
+      "type": {
+        "name": "old",
+        "type": "record",
+        "fields": [
+          {
+            "name": "id",
+            "type": "int"
+          },
+          {
+            "name": "time",
+            "type": "string"
+          },
+          {
+            "name": "latitude",
+            "type": "string"
+          },
+          {
+            "name": "longitude",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "newer",
+      "type": {
+        "name": "newer",
+        "type": "record",
+        "fields": [
+          {
+            "name": "id",
+            "type": "int"
+          },
+          {
+            "name": "time",
+            "type": "string"
+          },
+          {
+            "name": "latitude",
+            "type": "string"
+          },
+          {
+            "name": "longitude",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "to_process",
+  "type": "record"
+}
